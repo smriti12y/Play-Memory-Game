@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgba(237, 185, 219, 0.963);
+    height: 100vh;
 }
 .heading{
     background: linear-gradient(to top,#171b00,#fc4a1a);
@@ -19,17 +20,22 @@ body{
     padding: 0;
 }
 img{
-    margin-top: 30px;
+    margin-top: 60px;
     width: 100px;
     height: 100px;
+    
+   
+   
 }
 .memory-game{
-    margin-top: 20px;
- width: 649px;
- height: 649px;
+  margin-top: 86px;
+ 
+ width: 861px;
+  height: 680px;
+  margin-left: 302px;
  display: flex;
  flex-wrap: wrap;
- border: 5px solid rgb(10, 14, 10);
+ border: 4px solid rgb(10, 14, 10);
  background-color: rgb(138, 147, 147);
 }
 
@@ -37,8 +43,9 @@ img{
     width: 35%;
     height: 34%;
     
+    
+    
 }
 .front-face,.back-face{
    
-   border-radius: 5px;
 }
