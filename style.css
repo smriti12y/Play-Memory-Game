@@ -6,6 +6,8 @@
 body{
     background-color: rgba(237, 185, 219, 0.963);
     height: 100vh;
+    
+   
 }
 .heading{
     background: linear-gradient(to top,#171b00,#fc4a1a);
@@ -29,10 +31,10 @@ img{
 }
 .memory-game{
   margin-top: 86px;
- 
+ margin: auto;
  width: 861px;
-  height: 680px;
-  margin-left: 302px;
+  height: 780px;
+  
  display: flex;
  flex-wrap: wrap;
  border: 4px solid rgb(10, 14, 10);
@@ -40,12 +42,14 @@ img{
 }
 
 .memory-card{
-    width: 35%;
-    height: 34%;
-    
-    
+    width: 34%;
+    height: 36%;
+   
     
 }
+
 .front-face,.back-face{
-   
+
+
+
 }
